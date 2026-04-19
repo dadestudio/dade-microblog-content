@@ -2,6 +2,7 @@
 title: Now
 type: page
 permalink: /now/
+url: https://dade.micro.blog/now/
 ---
 
 As of 2026-04-18.

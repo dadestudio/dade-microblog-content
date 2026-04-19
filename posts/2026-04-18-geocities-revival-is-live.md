@@ -3,6 +3,7 @@ title: "Geocities Revival is live at dadeog.neocities.org"
 date: 2026-04-18T17:00:00-06:00
 categories: ["BiP-Neocities", "Design"]
 tags: ["neocities", "geocities", "retro-web"]
+url: https://dade.micro.blog/2026/04/19/geocities-revival-is-live-at.html
 ---
 
 The first version of [dadeog.neocities.org](https://dadeog.neocities.org) is up.

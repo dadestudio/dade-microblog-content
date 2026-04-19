@@ -2,6 +2,7 @@
 title: Projects
 type: page
 permalink: /projects/
+url: https://dade.micro.blog/projects/
 ---
 
 What I'm actively shipping. Each entry links to its build-in-public archive on this blog.

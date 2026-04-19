@@ -2,6 +2,7 @@
 title: About
 type: page
 permalink: /about/
+url: https://dade.micro.blog/about/
 ---
 
 I'm Dade. Solo founder and creative director of [Dade.Studio](https://dade.studio), a brand, marketing, and design agency for people who care about the work.

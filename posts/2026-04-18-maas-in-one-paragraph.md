@@ -3,6 +3,7 @@ title: "MaaS in one paragraph"
 date: 2026-04-18T15:30:00-06:00
 categories: ["BiP-MaaS", "Essays"]
 tags: ["maas", "ai-memory", "productized-service"]
+url: https://dade.micro.blog/2026/04/19/maas-in-one-paragraph.html
 ---
 
 Every AI conversation starts from zero. You spent an hour last Tuesday explaining your business model, your tone, your customers, and the stack you actually use, and the agent you opened today has no idea any of that happened. So you re-explain. Then you re-explain again next week, in a different tool, to a different model. The context tax compounds and nobody sends you the bill.

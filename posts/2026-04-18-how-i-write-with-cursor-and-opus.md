@@ -3,6 +3,7 @@ title: "How I write with Cursor and Opus 4.7"
 date: 2026-04-18T19:30:00-06:00
 categories: ["Tools", "Essays"]
 tags: ["cursor", "claude", "writing-workflow"]
+url: https://dade.micro.blog/2026/04/19/how-i-write-with-cursor.html
 ---
 
 Every post on this blog goes through the same loop, including this one.
