@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Tiny Theme — custom overrides for blog.dade.studio
+   --------------------------------------------------------------------------
+   Paste into Micro.blog → Design → Edit CSS.
+   Strategy: prefer Tiny's CSS custom properties; fall back to selectors only
+   when a variable is not exposed. Keep the visual change minimal.
+   ========================================================================== */
+
+/* ---------- 1. Theme tokens (light) -------------------------------------- */
+:root {
+  /* Typography */
+  --theme-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --theme-font-family-mono: "SF Mono", Menlo, Consolas, monospace;
+  --theme-line-height: 1.6;
+
+  /* Layout */
+  --theme-content-width: 680px;
+
+  /* Color — single studio-neutral accent */
+  --theme-link-color: #2D5BFF;
+  --theme-link-hover-color: #1E40CC;
+}
+
+/* ---------- 2. Theme tokens (dark, system preference) -------------------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Slightly lifted accent for AA contrast on dark backgrounds */
+    --theme-link-color: #6E8BFF;
+    --theme-link-hover-color: #92A8FF;
+  }
+}
+
+/* ---------- 3. Body fallback (in case vars are not consumed) ------------ */
+body {
+  font-family: var(--theme-font-family);
+  line-height: var(--theme-line-height);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--theme-font-family-mono);
+}
+
+/* ---------- 4. Timeline / post titles ----------------------------------- */
+/* Tiny uses h2 inside .post for timeline entries and h1 on permalinks.
+   Nudge size up a touch and tighten tracking for a more editorial feel. */
+.post h1,
+.post h2,
+article h1,
+article h2 {
+  font-size: 1.35rem;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+
+/* ---------- 5. Code blocks ---------------------------------------------- */
+pre {
+  background: rgba(0, 0, 0, 0.04);
+  border: 0;
+  border-radius: 6px;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+}
+
+code {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+
+/* Reset inline styling when code lives inside a pre block */
+pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  pre  { background: rgba(255, 255, 255, 0.05); }
+  code { background: rgba(255, 255, 255, 0.07); }
+  pre code { background: transparent; }
+}
+
+/* ---------- 6. Images ---------------------------------------------------- */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* ---------- 7. Link affordance ------------------------------------------ */
+a {
+  color: var(--theme-link-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--theme-link-hover-color);
+}
