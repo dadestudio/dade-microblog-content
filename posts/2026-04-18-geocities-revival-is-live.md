@@ -18,11 +18,9 @@ What is on it right now:
 - Shrines, coming next. Each one a love letter to a specific piece of culture I care about.
 - A Konami code easter egg. Find it and something happens.
 
-![screenshot of homepage](/assets/neocities-home.png)
-
 How it is built: Cursor Agent and raw HTML, CSS, and JavaScript. No React, no Tailwind, no build step, no framework. The whole site is files you can right-click and read, the way the web used to work. Cursor handles the boilerplate so I can focus on the layout decisions and the weird touches that make a personal site personal.
 
-![arcade page](/assets/neocities-arcade.png)
+!
 
 It is intentionally not done. Neocities sites are not meant to be done. They are meant to be the digital equivalent of someone's bedroom wall: always changing, always a little off, always personal.
 
