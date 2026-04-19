@@ -166,3 +166,4 @@ while IFS= read -r _line || [[ -n "$_line" ]]; do
   printf '%s\n' "$_line"
 done < "$SRC" > "$TMP"
 mv "$TMP" "$SRC"
+grep -q "^url: ${LOCATION}$" "$SRC" || { echo "post.sh: url: writeback verification failed for $SRC (expected $LOCATION)" >&2; exit 5; }
