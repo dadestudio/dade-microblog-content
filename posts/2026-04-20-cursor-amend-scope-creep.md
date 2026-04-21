@@ -3,6 +3,7 @@ title: "Cursor's git commit --amend ate scope I didn't give it"
 date: 2026-04-20T01:35:00-06:00
 categories: ["Tools", "Notes"]
 tags: ["cursor", "git", "gotcha"]
+url: https://dade.micro.blog/2026/04/20/cursors-git-commit-amend-ate.html
 ---
 
 Ran a T-run in Cursor Agent yesterday to add missing `<meta name="description">` tags across seven pages. Clean scope, SEO only. Cursor finished, amended the commit, reported back green.

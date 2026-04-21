@@ -3,6 +3,7 @@ title: "Tailscale MagicDNS was null-routing my DNS to 0.0.0.0"
 date: 2026-04-20T01:32:00-06:00
 categories: ["Tools", "Notes"]
 tags: ["tailscale", "dns", "debugging"]
+url: https://dade.micro.blog/2026/04/20/tailscale-magicdns-was-nullrouting-my.html
 ---
 
 Spent an hour yesterday watching Chrome return `ERR_CONNECTION_REFUSED` on a custom domain while `curl` hit the same URL and got a clean 200. Split-brain DNS, obviously. The cause wasn't.

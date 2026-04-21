@@ -3,6 +3,7 @@ title: "I rebuilt Winamp in a browser and dropped it on Neocities"
 date: 2026-04-20T01:31:00-06:00
 categories: ["BiP-Neocities", "Design"]
 tags: ["neocities", "winamp", "midi", "webaudio"]
+url: https://dade.micro.blog/2026/04/20/i-rebuilt-winamp-in-a.html
 ---
 
 The homepage at [dadeog.neocities.org](https://dadeog.neocities.org) now has a working Winamp 2 replica. It's not a skin and not a visual mock. It actually plays.

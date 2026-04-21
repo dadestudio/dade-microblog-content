@@ -3,6 +3,7 @@ title: "Your AI is that coworker"
 date: 2026-04-20T01:34:00-06:00
 categories: ["BiP-MaaS", "Essays"]
 tags: ["maas", "positioning", "messaging"]
+url: https://dade.micro.blog/2026/04/20/your-ai-is-that-coworker.html
 ---
 
 I rewrote the MaaS landing opener this week. The old hook was "Your AI has amnesia." Technically accurate, rhetorically tired.
